@@ -10,6 +10,8 @@
 		26611B7721A51C850020BA8D /* OSControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26611B6D21A51C840020BA8D /* OSControl.framework */; };
 		26611B7C21A51C850020BA8D /* OSControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611B7B21A51C850020BA8D /* OSControlTests.m */; };
 		26611B7E21A51C850020BA8D /* OSControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 26611B7021A51C840020BA8D /* OSControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26611BD421A51E450020BA8D /* OSTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 26611BD221A51E450020BA8D /* OSTextField.h */; };
+		26611BD521A51E450020BA8D /* OSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 26611BD321A51E450020BA8D /* OSTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		26611B7621A51C850020BA8D /* OSControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26611B7B21A51C850020BA8D /* OSControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSControlTests.m; sourceTree = "<group>"; };
 		26611B7D21A51C850020BA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26611BD221A51E450020BA8D /* OSTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSTextField.h; sourceTree = "<group>"; };
+		26611BD321A51E450020BA8D /* OSTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				26611B7021A51C840020BA8D /* OSControl.h */,
+				26611BD221A51E450020BA8D /* OSTextField.h */,
+				26611BD321A51E450020BA8D /* OSTextField.m */,
 				26611B7121A51C840020BA8D /* Info.plist */,
 			);
 			path = OSControl;
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26611BD421A51E450020BA8D /* OSTextField.h in Headers */,
 				26611B7E21A51C850020BA8D /* OSControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26611BD521A51E450020BA8D /* OSTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

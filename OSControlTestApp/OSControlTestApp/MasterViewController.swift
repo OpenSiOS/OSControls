@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import OSControl
 
 class MasterViewController: UITableViewController {
 

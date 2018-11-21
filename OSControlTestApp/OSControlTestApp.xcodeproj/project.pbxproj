@@ -87,6 +87,7 @@
 		26611BB521A51CEA0020BA8D /* OSControlTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSControlTestAppUITests.swift; sourceTree = "<group>"; };
 		26611BB721A51CEA0020BA8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26611BC321A51CFE0020BA8D /* OSControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OSControl.xcodeproj; path = ../OSControl.xcodeproj; sourceTree = "<group>"; };
+		26611BDA21A51F7B0020BA8D /* OSControlTestApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSControlTestApp-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +147,7 @@
 				26611B9C21A51CEA0020BA8D /* Assets.xcassets */,
 				26611B9E21A51CEA0020BA8D /* LaunchScreen.storyboard */,
 				26611BA121A51CEA0020BA8D /* Info.plist */,
+				26611BDA21A51F7B0020BA8D /* OSControlTestApp-Bridging-Header.h */,
 			);
 			path = OSControlTestApp;
 			sourceTree = "<group>";
@@ -524,6 +526,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pondi.OSControlTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OSControlTestApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -542,6 +545,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pondi.OSControlTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OSControlTestApp-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
